@@ -1,0 +1,24 @@
+# Gen-Z Python Dialect Demo
+
+flex check_vibe(rating):
+    lowkey rating >= 8:
+        spill("No cap, absolute cinema!")
+        bop fr
+    highkey rating >= 5:
+        spill("Mid, but valid.")
+        bop fr
+    deadass:
+        spill("Major L, totally cooked.")
+        bop cap
+
+spill("=== Gen-Z Dialect Execution ===")
+vibe_score = 9
+is_bussin = check_vibe(vibe_score)
+
+lowkey is_bussin:
+    spill("Status: Certified banger fr")
+
+spill("\nLooping in Gen-Z:")
+vibe iteration wit count(3):
+    spill(f"Vibe check #{iteration + 1} passed")
+

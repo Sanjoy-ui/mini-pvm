@@ -1,0 +1,15 @@
+# FizzBuzz in Hinglish Python
+# Demonstrating loops, range, conditionals, and printing
+
+likho("=== FizzBuzz (1 to 15) in Hinglish ===")
+
+har sankhya mein ginte(1, 16):
+    agar sankhya % 15 == 0:
+        likho("FizzBuzz")
+    warna_agar sankhya % 3 == 0:
+        likho("Fizz")
+    warna_agar sankhya % 5 == 0:
+        likho("Buzz")
+    warna:
+        likho(sankhya)
+

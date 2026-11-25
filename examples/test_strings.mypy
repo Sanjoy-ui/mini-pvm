@@ -1,0 +1,26 @@
+# Demonstration of Lexical Safety:
+# Proving that keywords inside strings, comments, and identifiers are NOT modified!
+
+# 1. Keywords in Comments:
+# agar this is a comment, warna it is ignored!
+
+# 2. Keywords as Substrings in Variable Names:
+agarbatti_count = 10
+warna_sheet = "Gulabi"
+
+# 3. Keywords inside String Literals:
+song_line = "agar tum mil jao, warna hum mar jayenge"
+quote = 'likho: "har pal yahan jeebhar jiyo"'
+
+likho("=== Lexical Safety Verification ===")
+likho("Variable agarbatti_count:", agarbatti_count)
+likho("Variable warna_sheet:", warna_sheet)
+likho("String literal 1:", song_line)
+likho("String literal 2:", quote)
+
+# 4. Actual Keyword Execution in the same code:
+agar agarbatti_count == 10 aur warna_sheet == "Gulabi":
+    likho("\n[PASS] Keywords and variables coexist seamlessly!")
+warna:
+    likho("\n[FAIL] Something went wrong.")
+

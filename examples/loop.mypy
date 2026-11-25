@@ -1,0 +1,18 @@
+# While-Loop Accumulator in Hinglish on Mini-PVM
+# Demonstrating: variables, 'jabtak' loop, arithmetic, string concatenation, and 'likho'
+
+likho("=== Mini-PVM While Loop Demo ===")
+
+ginti = 1
+kul_jod = 0
+
+jabtak ginti <= 5:
+    kul_jod = kul_jod + ginti
+    likho("Ginti: " + str(ginti) + " | Kul Jod: " + str(kul_jod))
+    ginti = ginti + 1
+
+likho("--- Loop Completed ---")
+likho("Aakhri Jod (Final Total): " + str(kul_jod))
+AWSTemplateFormatVersion: "2010-09-09"
+
+

@@ -1,0 +1,24 @@
+# Arithmetic Calculator on Mini-PVM
+# Demonstrating: variables, precedence (+, -, *, /, %), and comparisons
+
+likho("=== Mini-PVM Arithmetic Calculator ===")
+
+a = 20
+b = 6
+
+jod = a + b
+ghatana = a - b
+guna = a * b
+bhaag = a / b
+shesh = a % b
+
+likho("a = " + str(a) + ", b = " + str(b))
+likho("a + b = " + str(jod))
+likho("a - b = " + str(ghatana))
+likho("a * b = " + str(guna))
+likho("a / b = " + str(bhaag))
+likho("a % b = " + str(shesh))
+
+agar jod > 20:
+    likho("Validation: Sum is greater than 20 (Sahi!)")
+

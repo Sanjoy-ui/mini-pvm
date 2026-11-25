@@ -1,0 +1,19 @@
+# Fibonacci Sequence & Functions in Hinglish Python
+
+kaam fibonacci(n):
+    agar n <= 1:
+        wapas n
+    warna:
+        wapas fibonacci(n - 1) + fibonacci(n - 2)
+
+likho("=== First 10 Fibonacci Numbers ===")
+natiza = []
+har i mein ginte(10):
+    val = fibonacci(i)
+    natiza.append(val)
+    likho(f"fibonacci({i}) = {val}")
+
+likho("\nPoori soochi (Full list):", natiza)
+likho("Kul sankhya (Length):", lambai(natiza))
+likho("Jod (Sum):", jodo(natiza))
+

@@ -1,0 +1,19 @@
+# Conditional Branching on Mini-PVM
+# Demonstrating: 'agar', 'warna_agar', 'warna', and comparisons
+
+likho("=== Mini-PVM Branching Demo ===")
+
+score = 85
+
+agar score >= 90:
+    grade = "Grade A: Lajawaab!"
+warna_agar score >= 75:
+    grade = "Grade B: Badiya!"
+warna_agar score >= 50:
+    grade = "Grade C: Theek Thaak"
+warna:
+    grade = "Grade F: Mehnat Karo"
+
+likho("Score: " + str(score))
+likho("Result: " + grade)
+
