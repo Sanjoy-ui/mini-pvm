@@ -1,5 +1,10 @@
 # 🌶️ Flavour: Custom-Keyword Python Dialect & Virtual Machine (Mini-PVM)
 
+[![PyPI version](https://img.shields.io/pypi/v/flavour-pvm.svg)](https://pypi.org/project/flavour-pvm/)
+[![Python versions](https://img.shields.io/pypi/pyversions/flavour-pvm.svg)](https://pypi.org/project/flavour-pvm/)
+
+> **Published on PyPI as [`flavour-pvm`](https://pypi.org/project/flavour-pvm/)** — install directly via `pip install flavour-pvm`.
+
 > **A custom vernacular Python dialect featuring an authentic Stack-Based Virtual Machine (Mini-PVM), Bytecode Compiler with Jump Backpatching, Disassembler, and Source Transpiler.**
 
 Flavour allows developers to write code using custom vernacular keywords—such as **Hinglish** (`agar`, `warna`, `jabtak`, `likho`, `har`, `mein`) or **Gen-Z** (`lowkey`, `deadass`, `spin`, `spill`).
